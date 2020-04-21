@@ -118,13 +118,11 @@ return 0 ;
     }
     this.setState({currentPlayer : nextPlayer}) ;
 
-
-    var winner = this.getWinner() ;
+var winner = this.getWinner() ;
     if(winner == 1){
-      Alert.alert("Player 1 is the winner") ;
+      Alert.alert("Player 1st is the winner") ;
       this.initializeGame() ;
-
-    }
+}
     else if(winner == -1){
       Alert.alert("Player 2 is the winner") ;
       this.initializeGame() ;
