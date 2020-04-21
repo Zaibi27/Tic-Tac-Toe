@@ -120,11 +120,11 @@ return 0 ;
 
 var winner = this.getWinner() ;
     if(winner == 1){
-      Alert.alert("Player 1st is the winner") ;
+      Alert.alert("Player 1stgi is the winner") ;
       this.initializeGame() ;
 }
     else if(winner == -1){
-      Alert.alert("Player 2 is the winner") ;
+      Alert.alert("Player 2nd  is the winner") ;
       this.initializeGame() ;
     }
 
